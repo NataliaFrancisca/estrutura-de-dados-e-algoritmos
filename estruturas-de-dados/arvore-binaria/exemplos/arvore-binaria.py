@@ -12,29 +12,28 @@ class ArvoreBinaria:
     def inserir(self, valor):
         if(self.head is None):
             self.head = Folha(valor, None, None)
-        else:
-            pai = self.head
+            return 
+        
+        pai = self.head
 
-            while(pai is not None):
-                if(valor > pai.valor):
-                    if(pai.direita is None):
-                        pai.direita = Folha(valor, None, None)
-                        break
-                    if(pai.direita.valor == valor):
-                        pai.direita.contador += 1
-                        break
-                    else:
-                        pai = pai.direita
+        while(pai is not None):
+            if valor == pai.valor:
+                pai.contador += 1
+                return
 
-                elif(valor < pai.valor):
-                    if(pai.esquerda is None):
-                        pai.esquerda = Folha(valor, None, None)
-                        break
-                    if(pai.esquerda.valor == valor):
-                        pai.esquerda.contador += 1
-                        break
-                    else: 
-                        pai = pai.esquerda
+            if valor > pai.valor:
+                if pai.direita is None:
+                    pai.direita = Folha(valor, None, None)
+                    return
+                
+                pai = pai.direita
+            
+            elif valor < pai.valor:
+                if pai.esquerda is None:
+                    pai.esquerda = Folha(valor, None, None)
+                    return
+
+                pai = pai.esquerda
 
 arvorebinaria = ArvoreBinaria()
 
