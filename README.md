@@ -5,14 +5,17 @@
 - Estou fazendo a leitura do livro: [Entendendo Algoritmos - Um Guia Ilustrado Para Programadores e Outros Curiosos - Aditya Y. Bhargava](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634).
 - Junto da leitura desse livro, estou fazendo o curso do Augusto: [Estruturas de Dados e Algoritmos](https://hub.la/g/L8wi9vio7WPnWbmF8ZIO?_path=%2Fg%2FL8wi9vio7WPnWbmF8ZIO)
 
+## Recursos:
+- [A melhor explicação de Recursividade do Youtube](https://www.youtube.com/watch?v=qUe36p4P2CI)
+
 
 ## Tópicos A:
 - [ ] 1. Arrays
-- [ ] 2. Linked Lists
+- [X] 2. Linked Lists
 - [ ] 3. Queues
 - [ ] 4. Hashmap
-- [ ] 5. Stack
-- [ ] 6. Binary Tree
+- [X] 5. Stack
+- [X] 6. Binary Tree
 - [ ] 7. Grafos
 - [ ] 8. Trie
 - [ ] 9. B-Tree
