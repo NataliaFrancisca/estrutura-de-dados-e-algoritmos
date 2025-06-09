@@ -8,13 +8,12 @@
 ## Recursos:
 - [A melhor explicação de Recursividade do Youtube](https://www.youtube.com/watch?v=qUe36p4P2CI)
 
-
 ## Tópicos A:
 - [ ] 1. Arrays
-- [X] 2. Linked Lists
-- [ ] 3. Queues
+- [X] 2. Linked Lists (Lista encadeada)
+- [X] 3. Queues (Fila)
 - [ ] 4. Hashmap
-- [X] 5. Stack
+- [X] 5. Stack (Pilha)
 - [X] 6. Binary Tree
 - [ ] 7. Grafos
 - [ ] 8. Trie
